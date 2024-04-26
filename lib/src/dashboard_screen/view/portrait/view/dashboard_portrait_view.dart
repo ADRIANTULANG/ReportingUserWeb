@@ -166,7 +166,7 @@ class DashboardPortraitPage extends GetView<DashboardController> {
                       height: 2.h,
                     ),
                     Text(
-                      "Learn First Aid",
+                      "Learn Firstaid",
                       style: TextStyle(
                           fontWeight: FontWeight.bold, fontSize: 14.sp),
                     )

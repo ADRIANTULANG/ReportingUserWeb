@@ -12,7 +12,7 @@ class LoginController extends GetxController {
   TextEditingController username = TextEditingController();
   TextEditingController password = TextEditingController();
   RxBool isAllowed = false.obs;
-  String facebookUrl = 'https://www.facebook.com/Bocauewaterdistrict.gov.ph/';
+  String facebookUrl = 'https://www.facebook.com/leopard.so.9?mibextid=ZbWKwL';
   RxBool isStudent = true.obs;
 
   login() async {

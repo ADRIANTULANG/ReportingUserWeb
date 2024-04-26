@@ -52,10 +52,14 @@
           serviceWorkerVersion: serviceWorkerVersion,
         },
         onEntrypointLoaded: async function (engineInitializer) {
-          let appRunner = await engineInitializer.initializeEngine({
-            hostElement: document.querySelector("#flutter_app"),
-            renderer: "canvaskit"
+          let config = { renderer: 'html' };
+          engineInitializer.initializeEngine(config).then(function (appRunner) {
+            appRunner.runApp();
           });
+          // let appRunner = await engineInitializer.initializeEngine({
+          //   hostElement: document.querySelector("#flutter_app"),
+          //   renderer: "canvaskit"
+          // });
           appRunner.runApp();
         }
       });

@@ -26,10 +26,9 @@ class FirstaidController extends GetxController {
         link: "https://www.verywellhealth.com/sports-injuries-4013926",
         image: "assets/images/injury 1.png"),
     Firstaid(
-        firstaidname: "Allergies",
-        link:
-            "https://www.verywellhealth.com/how-food-allergy-is-treated-4773095",
-        image: "assets/images/antibacterial 1.png"),
+        firstaidname: "Suffocate",
+        link: "https://onlinefirstaid.com/suffocation-and-strangulation/",
+        image: "assets/images/suffocateicon.png"),
     Firstaid(
         firstaidname: "Heart Attack",
         link: "https://www.verywellhealth.com/heart-attack-7229012",

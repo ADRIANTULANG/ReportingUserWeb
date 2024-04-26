@@ -209,7 +209,7 @@ class Sidebar extends GetView<SideBarController> {
                       ? Colors.white
                       : Colors.lightBlue,
                 ),
-                label: 'Learn First Aid',
+                label: 'Learn Firstaid',
                 route: FirstaidMainPage.id,
                 isSelected: currentRoute == FirstaidMainPage.id,
                 onPressed: onRouteSelected,

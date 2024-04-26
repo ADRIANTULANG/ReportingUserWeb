@@ -37,7 +37,7 @@ class LoginFooterView extends GetView<LoginController> {
               SizedBox(
                 width: .5.w,
               ),
-              const Text("bocauewd086@gmail.com"),
+              const Text("jnwl838@gmail.com"),
             ],
           ),
           SizedBox(

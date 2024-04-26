@@ -100,7 +100,7 @@ class SideBarPortraitPage extends GetView<SideBarController> {
                   Icons.medical_information,
                   color: Colors.lightBlue,
                 ),
-                title: const Text('Learn First Aid'),
+                title: const Text('Learn Firstaid'),
                 onTap: () {
                   Get.back();
                   controller.currentRoute.value = FirstaidMainPage.id;

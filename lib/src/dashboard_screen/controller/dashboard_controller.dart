@@ -37,7 +37,6 @@ class DashboardController extends GetxController {
 
   List<String> accidentType = [
     'Fire',
-    'Hurricane',
     'Flood',
     'Earthquake',
     'Landslide',

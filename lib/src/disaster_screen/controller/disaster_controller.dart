@@ -11,11 +11,11 @@ class DisasterController extends GetxController {
   RxList<DisasterModel> disasterDataMasterList = <DisasterModel>[].obs;
 
   RxList<DisasterModel> disasterData = <DisasterModel>[
-    DisasterModel(
-      disastername: "Huricane",
-      images: "assets/images/hrrcn.png",
-      buttonimage: "assets/images/hurricanebutton.png",
-    ),
+    // DisasterModel(
+    //   disastername: "Huricane",
+    //   images: "assets/images/hrrcn.png",
+    //   buttonimage: "assets/images/hurricanebutton.png",
+    // ),
     DisasterModel(
       disastername: "Flood",
       images: "assets/images/fldtps.png",

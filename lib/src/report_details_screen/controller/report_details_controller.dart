@@ -95,9 +95,13 @@ class ReportDetailsController extends GetxController {
           ),
         ));
         if (data.containsKey('responderLat')) {
+          BitmapDescriptor customIcon;
+          customIcon = await BitmapDescriptor.fromAssetImage(
+              const ImageConfiguration(size: Size(40, 40)),
+              'assets/images/markerblue.png');
           markers.add(Marker(
             markerId: const MarkerId("ResponderLocation"),
-            icon: BitmapDescriptor.defaultMarker,
+            icon: customIcon,
             position: LatLng(data['responderLat'], data['responderLong']),
             infoWindow: const InfoWindow(
               title: "Responder",
